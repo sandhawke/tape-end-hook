@@ -2,7 +2,7 @@ Helps keeping tests more readable
 
 Example:
 
-``js
+```js
 const test = require('tape')
 const atEnd = require('tape-end-hook')
 
@@ -14,4 +14,4 @@ test('triple hook, some async', t => {
   atEnd(t, () => { t.equal(++counter, 1) })
   t.end()
 })
-``
+```
